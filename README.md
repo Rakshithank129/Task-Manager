@@ -32,11 +32,17 @@ python manage.py test  -- to run test cases
 API Endpoints:
 
 GET :	/tasks/	List all tasks
+
 GET :	/tasks/?search=abc	Search tasks by title
+
 GET	: /tasks/?search_date=yyyy-mm-dd	Search tasks by date
+
 GET	: /tasks/?sort_by_date=true	Sort tasks by date
+
 POST :	/tasks/	Create a new task
+
 PATCH	: /tasks/<id>/	Update a task by ID
+
 DELETE : /tasks/<id>/	Delete a task by ID
 
 **THANK YOU**
