@@ -14,19 +14,25 @@ Features
 Folders
 
 -  task_manager/
+  
 ├── task_manager/ # Main project settings
+
 ├── task_manager_app/ # App with models, views, serializers, and urls
+
 ├── tests.py # Unit and integration tests
+
 └── manage.py
 
 **Apply migrations**
 
 python manage.py makemigration
+
 python manage.py migrate
 
 **Final step**
 
 python manage.py runserver
+
 python manage.py test  -- to run test cases
 
 API Endpoints:
